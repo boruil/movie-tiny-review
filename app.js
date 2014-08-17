@@ -6,4 +6,4 @@ app.set('views', './views')
 app.set('view engine', 'jade')
 app.listen(port)
 
-console.log()
+console.log('service launched')
