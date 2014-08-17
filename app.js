@@ -16,21 +16,21 @@ app.get('/', function(req, res) {
 })
 
 // detail page
-app.get('/', function(req, res) {
+app.get('/detail', function(req, res) {
 	res.render('index', {
 		title: 'movie-tiny-review--Detail'
 	})
 })
 
 // admin page
-app.get('/', function(req, res) {
+app.get('/admin', function(req, res) {
 	res.render('index', {
 		title: 'movie-tiny-review--Admin'
 	})
 })
 
 // list page
-app.get('/', function(req, res) {
+app.get('/list', function(req, res) {
 	res.render('index', {
 		title: 'movie-tiny-review--List'
 	})
